@@ -1,0 +1,18 @@
+{
+  "name": "ipl_project",
+  "version": "1.0.0",
+  "description": "IPL data visualization",
+  "main": "index.js",
+  "scripts": {
+    "ipl": "node index.js",
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "Mayank",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "http-server": "^0.12.1",
+    "https": "^1.0.0"
+  }
+}
