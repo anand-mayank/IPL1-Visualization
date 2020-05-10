@@ -279,20 +279,20 @@ Highcharts.chart('StrikeRate', {
       pointFormat: 'Strike rate of Batsman in Year 2017'
   },
   series: [{
-      // name: 'Population', // If we want dataLabel to top of bar graph. we can undo commited line.
+      name: 'Population', // If we don't want dataLabel to top of bar graph. we can undo this line and dataLabels {}
       data: seriesData,
-      // dataLabels: {
-      //     enabled: true,
-      //     rotation: -90,
-      //     color: '#FFFFFF',
-      //     align: 'right',
-      //     format: '{point.y:.1f}',
-      //     y: 10, 
-      //     style: {
-      //         fontSize: '13px',
-      //         fontFamily: 'Verdana, sans-serif'
-          // }
-      // }
+      dataLabels: {
+          enabled: true,
+          rotation: -90,
+          color: '#FFFFFF',
+          align: 'right',
+          format: '{point.y:.1f}',
+          y: 10, 
+          style: {
+              fontSize: '13px',
+              fontFamily: 'Verdana, sans-serif'
+          }
+      }
   }]
 });
 }
