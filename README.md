@@ -1,4 +1,4 @@
-# IPL dataset visualization
+# IPL Dataset Visualization1
 
 ## Install
 
@@ -67,5 +67,5 @@ Open http://127.0.0.1:8080
 1. Plot the total number of matches played each year.
 2. Plot the number of matches won by each team over all the years of IPL.
 3. For the year 2016, plot the extra runs conceded by each team.
-4. For the year 2015, plot the top 10 economical bowlers along with their economy rates.
+4. For the year 2015, plot the top 20 economical bowlers along with their economy rates.
 5. Plot a Story for the Strike Rate of Batsman in 2017.
